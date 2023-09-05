@@ -13,7 +13,6 @@ const Path = () => {
           <Route path="/graph" element={<Graph/>}/>
           <Route  path="/currentforecast" element={<CurrentDayDetails/>}/>
           <Route  path="/weeklyforecast" element={<Weekly_data/>}/>
-
         </Routes>
       </Router>
     </div>
